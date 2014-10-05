@@ -1,0 +1,66 @@
+.letterbox-container {
+    float: left;
+    height: 50px;
+    overflow: scroll;
+    width: 100%;
+}
+
+#letterbox {
+    width: 9999px;
+}
+
+.card {
+    background-color: #eee;
+    text-align: center;
+    border-right: 1px solid #ddd;
+    padding: 10px 0;
+    width: 40px;
+    font-size: 20px;
+    float: left;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.current, .current:hover {
+    background-color: red !important;
+    color: white;
+}
+
+.small-image {
+    display: inline;
+    width: 50px;
+}
+
+.card:hover {
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+.canvas {
+    float: right;
+    width: 88%;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    max-height: 500px;
+    max-width: 500px;
+}
+
+.text-field {
+    font-size: 20px;
+    display: block;
+}
+
+.text-result {
+    border: 1px solid #eee;
+    font-size: 20px;
+    display: block;
+    height: 400px;
+    width: 100%;
+}
+
+.button {
+    float: left;
+}

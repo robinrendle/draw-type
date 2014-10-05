@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Draw type</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>drawType</h1>
+    <ol>
+        <li>Pick a letter to draw</li>
+        <li>Draw the heck out of it (with guidelines on or off)</li>
+        <li>Use your typeface!</li>
+    </ol>
+    
+    <select name="typecase" class="select-case">
+        <option value="lowercase">Lowercase</option>
+        <option value="uppercase">Uppercase</option>
+    </select>
+    
+    <div class="letterbox-container">
+        <div id="letterbox">
+        </div>
+    </div>
+
+    <canvas class="canvas" width="500" height="500"></canvas>
+
+    <input type="button" value="Save" class="button save-button" id="btn" size="30">
+    <input type="button" value="Erase" class="button erase-button" id="btn" size="30">
+    
+    <input type="text" placeholder="Use your typeface here" class="text-field">
+    <div class="text-result"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
